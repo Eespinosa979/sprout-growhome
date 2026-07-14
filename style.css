@@ -1,0 +1,63 @@
+/* Basic CSS file for Sprout & Grow website */
+.huninn-regular {
+  font-family: "Huninn", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body, html {
+    margin: auto;
+    padding: auto;
+    text-align: center;
+    align-content: flex-start;
+    background-color:#DAD7CD;
+    font-family: "Huninn", sans-serif;
+}
+
+header {
+    background-color: #3A5A40;
+    color: #FFF;
+    padding: 15px 0;
+}
+
+nav, ul, li {
+    text-decoration: none;
+    display: inline;
+    padding: 5px;
+}
+
+ul li a {
+    list-style: none;
+    padding: 0;
+    color: #FFF;
+}
+
+footer {
+    background-color: #3A5A40;
+    color: #FFF;
+    padding: 9px 5px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+main {
+    padding: 50px;
+    display: flex;
+    flex-direction: right;
+}
+
+img {
+    width: 400px;
+    height: 200px;
+    object-fit: scale-down;
+    align-content: center;
+}
+
+section, h2, h4 {
+    display: inline;
+    justify-content: space-around;
+    text-align: left;
+}
+
+/* Add specific styles for navigation, main content, images, etc. */
