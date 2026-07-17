@@ -3,18 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
-    <link rel="stylesheet" href="css/styles.css">
+    <title>Events</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
-        <!-- Header content goes here: logo, navigation bar -->
+        <img class="logo" src="sprout-grow-horizontal-524-transparent.png" width="500" height="100" alt="Sprout & Grow logo">
+        <nav role="navigation menu">
+            <ul class="nav">
+                <li><a href="/C:\Users\Lizzy\OneDrive\Desktop\WEB140\Sprout_Grow_Website_Starter_Code\home.html">Home</a></li>
+                <li><a href="/C:\Users\Lizzy\OneDrive\Desktop\WEB140\Sprout_Grow_Website_Starter_Code\about.html">About</a></li>
+                <li><a href="/C:\Users\Lizzy\OneDrive\Desktop\WEB140\Sprout_Grow_Website_Starter_Code\products.html">Products</a></li>
+                <li><a href="/C:\Users\Lizzy\OneDrive\Desktop\WEB140\Sprout_Grow_Website_Starter_Code\events.html">Events</a></li>
+                    <li><a href="/C:\Users\Lizzy\OneDrive\Desktop\WEB140\Sprout_Grow_Website_Starter_Code\registration.html"></a></li>
+            </ul>
+        </nav>
     </header>
     <main>
-        <!-- Events page content goes here: event descriptions, calendars, registration links -->
+        <h1>Events</h1>
+            <p>We offer workshops! All are welcome! If you are intrested fill out the form below.</p>
+            <form id="SignUp" method="post" action="">
+                <label for="name">Name</label><input type="text" name="name">
+                <label for="email">Email</label><input type="text" name="email">
+                <label for="phone">Phone number</label><input type="text" name="phone">
+                <label for="location">Where would you perfer to assist?</label><input type="checkbox" name="location">
+                <label for="day">Which day would would you perfer to assist?</label><input type="checkbox" name="day">
+                <label for="question">Would you like to recieve email or text message?</label><input type="radio" name="question">
+                <label for="online">Would you like to attend online or in person?</label><input type="checkbox" name="online">
+                <input type="submit">
+            </form>
+        <br><h2>Newsletter</h2></br>
+            <p>We offer a digital newsletter, where we share tips and organic practices for all who want to learn!</p>
+            <form id="SignUp2" method="post" action="">
+                <label for="name">Name</label><input type="text" name="name">
+                <label for="question">Would you like to recieve email or text message?</label><input type="radio" name="question">
+                <label for="email">Email</label><input type="text" name="email">
+                <label for="phone">Phone number</label><input type="text" name="phone">
+                <input type="submit">
+            </form>
     </main>
-    <footer>
-        <!-- Footer content goes here: copyright info, social media links -->
+    <br></br>
+    <footer id="footer">
+        <a href="https://www.instagram.com/" aria-label="Go to Sprout&Grow's instagram">
+            <img src="icons8-instagram.svg">
+        </a>
+        <a href="https://www.facebook.com/" aria-label="Go to Sprout&Grow's facebook">
+            <img src="icons8-facebook.svg">
+        </a>
+        <a href="https://x.com/" aria-label="Go to Sprout&Grow's X">
+            <img src="icons8-x.svg">
+        </a>
     </footer>
 </body>
 </html>
